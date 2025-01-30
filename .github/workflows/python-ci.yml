@@ -15,29 +15,29 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Run Experiment 1
-        run: python exp1_literals.py
+      # - name: Run Experiment 1
+      #   run: python exp1_literals.py
         
       - name: Run Experiment 2
         run: python exp2_collections.py
 
-      - name: Run Experiment 3
-        run: python exp3_statistics.py
+      # - name: Run Experiment 3
+      #   run: python exp3_statistics.py
 
-      - name: Run Experiment 4
-        run: python exp4_prime.py
+      # - name: Run Experiment 4
+      #   run: python exp4_prime.py
 
-      - name: Run Experiment 5
-        run: python exp5_even.py
+      # - name: Run Experiment 5
+      #   run: python exp5_even.py
       
-      - name: Run Experiment 6
-        run: python exp6_sqrt.py
+      # - name: Run Experiment 6
+      #   run: python exp6_sqrt.py
 
-      - name: Run Experiment 7
-        run: python exp7_power.py
+      # - name: Run Experiment 7
+      #   run: python exp7_power.py
 
-      - name: Run Experiment 8
-        run: python exp8_fibonacci.py
+      # - name: Run Experiment 8
+      #   run: python exp8_fibonacci.py
 
       - name: Run Experiment 9
         run: python exp9_inheritance.py
@@ -45,5 +45,5 @@ jobs:
       - name: Run Experiment 10
         run: python exp10_polymorphism.py
 
-      - name: Run Experiment 11
-        run: python exp11_reverse_file.py
+      # - name: Run Experiment 11
+      #   run: python exp11_reverse_file.py
