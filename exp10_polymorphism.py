@@ -44,5 +44,4 @@ def main():
         print(f"Area: {calculate_area(shape)}")
         print(f"Perimeter: {shape.perimeter()}")
 
-if __name__ == "__main__":
-    main() 
+main() 

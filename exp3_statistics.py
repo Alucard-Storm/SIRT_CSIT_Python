@@ -1,6 +1,5 @@
 # Experiment 3: Mean, Median, and Mode
 
-from statistics import mean, median, mode
 from collections import Counter
 
 def calculate_statistics(numbers):
@@ -30,5 +29,4 @@ def main():
     print(f"Median: {median_val}")
     print(f"Mode: {mode_val}")
 
-if __name__ == "__main__":
-    main() 
+main() 

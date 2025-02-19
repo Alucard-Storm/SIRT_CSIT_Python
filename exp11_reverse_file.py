@@ -23,5 +23,4 @@ def main():
     filename = input("Enter the filename to read: ")
     reverse_file_lines(filename)
 
-if __name__ == "__main__":
-    main() 
+main() 

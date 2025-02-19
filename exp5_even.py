@@ -13,5 +13,4 @@ def main():
     except ValueError:
         print("Please enter a valid integer")
 
-if __name__ == "__main__":
-    main() 
+main() 

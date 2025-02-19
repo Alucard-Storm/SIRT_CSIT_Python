@@ -22,5 +22,4 @@ def main():
     prime_numbers = get_n_primes(n)
     print(f"First {n} prime numbers are: {prime_numbers}")
 
-if __name__ == "__main__":
-    main() 
+main() 

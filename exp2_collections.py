@@ -29,5 +29,4 @@ def demonstrate_collections():
     print(f"After adding new key: {my_dict}")
     print(f"Name: {my_dict['name']}")
 
-if __name__ == "__main__":
-    demonstrate_collections() 
+demonstrate_collections() 

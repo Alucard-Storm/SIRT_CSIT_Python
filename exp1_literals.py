@@ -28,5 +28,4 @@ def main():
     print(f"Boolean value: {boolean_val}")
     print(f"List: {list_example}")
 
-if __name__ == "__main__":
-    main() 
+main() 

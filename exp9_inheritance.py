@@ -45,5 +45,4 @@ def main():
     print(cat.get_info())
     cat.make_sound()
 
-if __name__ == "__main__":
-    main() 
+main() 
