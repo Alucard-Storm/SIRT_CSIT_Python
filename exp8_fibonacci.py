@@ -28,21 +28,16 @@ def fibonacci(n):
     return fib
 
 def main():
-    try:
-        # Ask user for the number of terms
-        n = int(input("Enter the number of Fibonacci terms to generate: "))
-        
-        if n < 0:
-            print("Please enter a non-negative integer.")
-            return
+    # Ask user for the number of terms
+    n = int(input("Enter the number of Fibonacci terms to generate: "))
+    
+    if n < 0:
+        print("Please enter a non-negative integer.")
+        return
 
-        # Call the function and print the resulting list
-        fib_series = fibonacci(n)
-        print(f"Fibonacci series ({n} terms): {fib_series}")
-            
-    except ValueError:
-        # Input validation
-        print("Error: Please enter a valid integer.")
+    # Call the function and print the resulting list
+    fib_series = fibonacci(n)
+    print(f"Fibonacci series ({n} terms): {fib_series}")
 
 # Entry point of the script
 main()

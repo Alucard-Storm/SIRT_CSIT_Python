@@ -32,16 +32,13 @@ def get_n_primes(n):
 
 def main():
     # User input for the number of primes needed
-    try:
-        n = int(input("Enter how many prime numbers you want: "))
-        if n <= 0:
-            print("Please enter a positive integer.")
-            return
-            
-        prime_numbers = get_n_primes(n)
-        print(f"First {n} prime numbers are: {prime_numbers}")
-    except ValueError:
-        print("Invalid input. Please enter a valid integer.")
+    n = int(input("Enter how many prime numbers you want: "))
+    if n <= 0:
+        print("Please enter a positive integer.")
+        return
+        
+    prime_numbers = get_n_primes(n)
+    print(f"First {n} prime numbers are: {prime_numbers}")
 
 # Script entry point
 main()

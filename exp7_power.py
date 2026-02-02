@@ -15,20 +15,15 @@ def calculate_power(base, exponent):
     return base ** exponent
 
 def main():
-    try:
-        # Prompt user for base and exponent
-        base = float(input("Enter the base number: "))
-        exponent = int(input("Enter the exponent (integer): "))
-        
-        # Calculate the result
-        result = calculate_power(base, exponent)
-        
-        # Output the formatted result
-        print(f"{base} raised to the power of {exponent} is: {result}")
+    # Prompt user for base and exponent
+    base = float(input("Enter the base number: "))
+    exponent = int(input("Enter the exponent (integer): "))
     
-    except ValueError:
-        # Error handling for invalid numeric inputs
-        print("Error: Please enter valid numbers (base: float/int, exponent: int).")
+    # Calculate the result
+    result = calculate_power(base, exponent)
+    
+    # Output the formatted result
+    print(f"{base} raised to the power of {exponent} is: {result}")
 
 # Standard Python idiom for running the main function
 main()
