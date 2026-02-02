@@ -1,26 +1,27 @@
 # Experiment 1: Literals, Constants, Data Types, and I/O
 
-# Constants
+# Defining Constants (conventionally written in UPPERCASE)
 PI = 3.14159
 MAX_VALUE = 100
 
-# Different types of literals and data types
-integer_num = 42
-float_num = 3.14
-string_text = "Hello, Python!"
-boolean_val = True
-complex_num = 3 + 4j
-list_example = [1, 2, 3, 4, 5]
+# Demonstrating different types of literals and their corresponding data types
+integer_num = 42         # Integer literal
+float_num = 3.14          # Floating point literal
+string_text = "Hello, Python!"  # String literal
+boolean_val = True        # Boolean literal
+complex_num = 3 + 4j      # Complex number literal (a + bj)
+list_example = [1, 2, 3, 4, 5]  # List literal (mutable collection)
 
 def main():
-    # Input/Output demonstration
+    # Input and Output demonstration
     print("=== Data Types and I/O Demo ===")
     
-    # Input
+    # Taking input from the user (input() always returns a string)
     name = input("Enter your name: ")
+    # Converting the input string to an integer
     age = int(input("Enter your age: "))
     
-    # Output with different data types
+    # Displaying output using f-strings for formatting
     print(f"\nName (string): {name}")
     print(f"Age (integer): {age}")
     print(f"PI (float constant): {PI}")
@@ -28,4 +29,6 @@ def main():
     print(f"Boolean value: {boolean_val}")
     print(f"List: {list_example}")
 
-main() 
+# Entry point of the script
+if __name__ == "__main__":
+    main()

@@ -1,23 +1,28 @@
 # Experiment 2: Lists, Tuples, and Dictionaries
 
 def demonstrate_collections():
-    # List demonstration
+    # List: An ordered, mutable (changeable) collection of items
     print("=== List Operations ===")
     my_list = [1, 2, 3, 4, 5]
     print(f"Original list: {my_list}")
+    
+    # Adding an element to the end of the list
     my_list.append(6)
     print(f"After append: {my_list}")
+    
+    # Removing a specific element by value
     my_list.remove(3)
     print(f"After removing 3: {my_list}")
     
-    # Tuple demonstration
+    # Tuple: An ordered, immutable (unchangeable) collection
     print("\n=== Tuple Operations ===")
     my_tuple = (1, 2, 3, "hello", 5.5)
     print(f"Tuple: {my_tuple}")
+    # Tuples are often used for fixed data that shouldn't change
     print(f"Tuple length: {len(my_tuple)}")
     print(f"First element: {my_tuple[0]}")
     
-    # Dictionary demonstration
+    # Dictionary: A collection of key-value pairs (unordered in older versions, ordered since 3.7)
     print("\n=== Dictionary Operations ===")
     my_dict = {
         "name": "John",
@@ -25,8 +30,14 @@ def demonstrate_collections():
         "city": "New York"
     }
     print(f"Dictionary: {my_dict}")
+    
+    # Adding a new key-value pair
     my_dict["occupation"] = "Developer"
     print(f"After adding new key: {my_dict}")
-    print(f"Name: {my_dict['name']}")
+    
+    # Accessing values using their keys
+    print(f"Name extracted from dictionary: {my_dict['name']}")
 
-demonstrate_collections() 
+# Execute the demonstration
+if __name__ == "__main__":
+    demonstrate_collections()

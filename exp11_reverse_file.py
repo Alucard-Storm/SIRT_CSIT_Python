@@ -1,26 +1,37 @@
-# Experiment 11: Reverse File Lines
+# Experiment 11: File Reading and Reversing Line Order
 
 def reverse_file_lines(filename):
+    """Reads lines from a file and prints them in original and reversed order."""
     try:
-        # Read the file
+        # 'with' statement ensures the file is automatically closed
         with open(filename, 'r') as file:
+            # readlines() returns a list of all lines in the file
             lines = file.readlines()
         
-        print("Original lines:")
+        if not lines:
+            print(f"The file '{filename}' is empty.")
+            return
+
+        print(f"--- Original content of '{filename}' ---")
         for line in lines:
+            # strip() removes leading/trailing whitespace including newlines
             print(line.strip())
         
-        print("\nReversed lines:")
+        print(f"\n--- Content in Reversed Order ---")
+        # reversed() returns an iterator that traverses the list backwards
         for line in reversed(lines):
             print(line.strip())
             
     except FileNotFoundError:
-        print(f"Error: File '{filename}' not found")
+        print(f"Error: The file '{filename}' was not found.")
     except Exception as e:
-        print(f"An error occurred: {str(e)}")
+        print(f"An unexpected error occurred: {str(e)}")
 
 def main():
-    filename = input("Enter the filename to read: ")
+    # Prompt user for the file to process
+    filename = input("Enter the filename (e.g., sample.txt): ")
     reverse_file_lines(filename)
 
-main() 
+# Entry point
+if __name__ == "__main__":
+    main()
