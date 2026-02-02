@@ -1,4 +1,13 @@
-# Experiment 7: Exponentiation (Calculating Base raised to Power)
+"""
+Experiment 7: Exponentiation (Calculating Base raised to Power)
+
+This experiment demonstrates mathematical operations for calculating powers.
+It covers:
+1.  **Exponentiation Operator (**)**: Python's dedicated operator for calculating powers efficiently.
+2.  **Type Conversion**: Handling different numeric inputs (float for base, integer for exponent).
+3.  **Function Definition**: Encapsulating logic within reusable functions with clear parameters.
+"""
+
 
 def calculate_power(base, exponent):
     """Returns the result of base raised to the power of exponent."""
@@ -22,5 +31,4 @@ def main():
         print("Error: Please enter valid numbers (base: float/int, exponent: int).")
 
 # Standard Python idiom for running the main function
-if __name__ == "__main__":
-    main()
+main()

@@ -1,4 +1,13 @@
-# Experiment 6: Square Root Calculation Using the Math Module
+"""
+Experiment 6: Square Root Calculation Using the Math Module
+
+This experiment introduces Python's standard library modules.
+It covers:
+1.  **Importing Modules**: Using the `import` statement to access the `math` library.
+2.  **Math Functions**: Utilizing `math.sqrt()` for efficient mathematical computations.
+3.  **Input Validation**: Checking for non-negative inputs since square roots of negative numbers are undefined in real numbers.
+"""
+
 
 import math
 
@@ -28,5 +37,4 @@ def main():
         print("Error: Please enter a valid numeric value.")
 
 # Main guard to prevent execution on import
-if __name__ == "__main__":
-    main()
+main()

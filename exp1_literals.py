@@ -1,4 +1,14 @@
-# Experiment 1: Literals, Constants, Data Types, and I/O
+"""
+Experiment 1: Literals, Constants, Data Types, and I/O
+
+This experiment demonstrates the fundamental building blocks of Python programming.
+It covers:
+1.  **Literals**: Fixed values like integers, floating-point numbers, strings, and booleans.
+2.  **Constants**: Variables whose values are intended to remain unchanged (conventionally named in UPPERCASE).
+3.  **Data Types**: The classification of data items (int, float, str, bool, complex, list).
+4.  **Input/Output (I/O)**: Using `input()` to receive user data and `print()` to display results.
+"""
+
 
 # Defining Constants (conventionally written in UPPERCASE)
 PI = 3.14159
@@ -30,5 +40,4 @@ def main():
     print(f"List: {list_example}")
 
 # Entry point of the script
-if __name__ == "__main__":
-    main()
+main()

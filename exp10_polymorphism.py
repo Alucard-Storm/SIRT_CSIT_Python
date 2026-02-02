@@ -1,4 +1,14 @@
-# Experiment 10: Demonstrating Polymorphism using Shapes
+"""
+Experiment 10: Demonstrating Polymorphism using Shapes
+
+This experiment explores the concept of Polymorphism in Object-Oriented Programming.
+It covers:
+1.  **Polymorphism**: The ability of different classes to be treated as instances of the same general class through a common interface.
+2.  **Abstract Base Classes**: Defining a common `Shape` interface with methods that must be implemented by subclasses.
+3.  **Method Implementation**: Creating specific implementations (`Rectangle`, `Circle`) for the abstract methods.
+4.  **Unified Interface**: Using a single function to interact with different objects interchangeably.
+"""
+
 
 # Base class defining an interface
 class Shape:
@@ -59,5 +69,4 @@ def main():
         print(f"Calculated Perimeter: {shape.perimeter()}")
 
 # Main guard
-if __name__ == "__main__":
-    main()
+main()

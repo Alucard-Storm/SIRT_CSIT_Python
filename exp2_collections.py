@@ -1,4 +1,13 @@
-# Experiment 2: Lists, Tuples, and Dictionaries
+"""
+Experiment 2: Lists, Tuples, and Dictionaries
+
+This experiment explores Python's built-in collection data types, which are used to store multiple items in a single variable.
+It covers:
+1.  **Lists**: Ordered, mutable collections that allow duplicate elements.
+2.  **Tuples**: Ordered, immutable collections (cannot be changed after creation).
+3.  **Dictionaries**: Unordered (conceptually) collections of key-value pairs, where keys must be unique.
+"""
+
 
 def demonstrate_collections():
     # List: An ordered, mutable (changeable) collection of items
@@ -39,5 +48,4 @@ def demonstrate_collections():
     print(f"Name extracted from dictionary: {my_dict['name']}")
 
 # Execute the demonstration
-if __name__ == "__main__":
-    demonstrate_collections()
+demonstrate_collections()

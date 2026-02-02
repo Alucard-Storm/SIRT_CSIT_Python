@@ -1,4 +1,13 @@
-# Experiment 4: Generating the First N Prime Numbers
+"""
+Experiment 4: Generating the First N Prime Numbers
+
+This experiment focuses on algorithm implementation for prime number generation.
+It covers:
+1.  **Prime Number**: A natural number greater than 1 that has no positive divisors other than 1 and itself.
+2.  **Validation Function**: Implementing `is_prime(n)` to check for primality logic efficiently.
+3.  **Loop Control**: Using a while loop to generate a specific count (N) of prime numbers.
+"""
+
 
 def is_prime(n):
     """Checks if a number is prime."""
@@ -35,5 +44,4 @@ def main():
         print("Invalid input. Please enter a valid integer.")
 
 # Script entry point
-if __name__ == "__main__":
-    main()
+main()

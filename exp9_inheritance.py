@@ -1,4 +1,14 @@
-# Experiment 9: Demonstrating Class Inheritance in Python
+"""
+Experiment 9: Demonstrating Class Inheritance in Python
+
+This experiment explores Object-Oriented Programming (OOP) concepts, specifically Inheritance.
+It covers:
+1.  **Inheritance**: Creating new classes (Child/Derived) based on existing ones (Parent/Base).
+2.  **Code Reusability**: Using common attributes and methods from the Parent class.
+3.  **Method Overriding**: Modifying the behavior of inherited methods in Child classes.
+4.  **`super()` Function**: Accessing methods and properties of the Parent class.
+"""
+
 
 # Base Class (Parent Class)
 class Animal:
@@ -57,5 +67,4 @@ def main():
     cat.make_sound()
 
 # Execution logic
-if __name__ == "__main__":
-    main()
+main()

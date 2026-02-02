@@ -1,4 +1,13 @@
-# Experiment 3: Mean, Median, and Mode Calculation
+"""
+Experiment 3: Mean, Median, and Mode Calculation
+
+This experiment demonstrates how to calculate basic statistical measures for a dataset.
+It covers:
+1.  **Mean**: The arithmetic average of a dataset (Sum of elements / Count of elements).
+2.  **Median**: The middle value separating the higher half from the lower half of a data sample.
+3.  **Mode**: The value that appears most frequently in the data set.
+"""
+
 
 from collections import Counter
 
@@ -36,5 +45,4 @@ def main():
     print(f"Statistical Mode: {mode_val}")
 
 # Entry point
-if __name__ == "__main__":
-    main()
+main()

@@ -1,4 +1,13 @@
-# Experiment 8: Generating Fibonacci Series up to N terms
+"""
+Experiment 8: Generating Fibonacci Series up to N terms
+
+This experiment focuses on sequence generation and iterative logic.
+It covers:
+1.  **Fibonacci Sequence**: A series where each number is the sum of the two preceding ones (usually starting with 0 and 1).
+2.  **Iterative Approach**: Using loops to generate terms dynamically based on user input.
+3.  **List Manipulation**: Using `append()` to build the sequence incrementally.
+"""
+
 
 def fibonacci(n):
     """Generates the Fibonacci sequence up to n terms iteratively."""
@@ -36,5 +45,4 @@ def main():
         print("Error: Please enter a valid integer.")
 
 # Entry point of the script
-if __name__ == "__main__":
-    main()
+main()

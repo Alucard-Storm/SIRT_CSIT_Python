@@ -1,4 +1,14 @@
-# Experiment 11: File Reading and Reversing Line Order
+"""
+Experiment 11: File Reading and Reversing Line Order
+
+This experiment demonstrates File Input/Output (I/O) operations and string manipulation.
+It covers:
+1.  **File Handling**: safely opening and reading files using the `with` statement.
+2.  **Reading Data**: Using `readlines()` to capture file content into a list.
+3.  **Data Processing**: Iterating through the list of lines in reverse order using `reversed()`.
+4.  **Error Handling**: Managing missing files and other exceptions using `try-except` blocks.
+"""
+
 
 def reverse_file_lines(filename):
     """Reads lines from a file and prints them in original and reversed order."""
@@ -33,5 +43,4 @@ def main():
     reverse_file_lines(filename)
 
 # Entry point
-if __name__ == "__main__":
-    main()
+main()
