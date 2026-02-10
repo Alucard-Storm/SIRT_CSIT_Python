@@ -9,43 +9,38 @@ It covers:
 """
 
 
-def demonstrate_collections():
-    # List: An ordered, mutable (changeable) collection of items
-    print("=== List Operations ===")
-    my_list = [1, 2, 3, 4, 5]
-    print(f"Original list: {my_list}")
-    
-    # Adding an element to the end of the list
-    my_list.append(6)
-    print(f"After append: {my_list}")
-    
-    # Removing a specific element by value
-    my_list.remove(3)
-    print(f"After removing 3: {my_list}")
-    
-    # Tuple: An ordered, immutable (unchangeable) collection
-    print("\n=== Tuple Operations ===")
-    my_tuple = (1, 2, 3, "hello", 5.5)
-    print(f"Tuple: {my_tuple}")
-    # Tuples are often used for fixed data that shouldn't change
-    print(f"Tuple length: {len(my_tuple)}")
-    print(f"First element: {my_tuple[0]}")
-    
-    # Dictionary: A collection of key-value pairs (unordered in older versions, ordered since 3.7)
-    print("\n=== Dictionary Operations ===")
-    my_dict = {
-        "name": "John",
-        "age": 30,
-        "city": "New York"
-    }
-    print(f"Dictionary: {my_dict}")
-    
-    # Adding a new key-value pair
-    my_dict["occupation"] = "Developer"
-    print(f"After adding new key: {my_dict}")
-    
-    # Accessing values using their keys
-    print(f"Name extracted from dictionary: {my_dict['name']}")
+# List: Ordered, mutable (changeable) collection
+print("=== List Operations ===")
+my_list = [1, 2, 3, 4, 5]
+print(f"Original list: {my_list}")
 
-# Execute the demonstration
-demonstrate_collections()
+# Add element to list
+my_list.append(6)
+print(f"After append: {my_list}")
+
+# Remove element from list
+my_list.remove(3)
+print(f"After removing 3: {my_list}")
+
+# Tuple: Ordered, immutable (unchangeable) collection
+print("\n=== Tuple Operations ===")
+my_tuple = (1, 2, 3, "hello", 5.5)
+print(f"Tuple: {my_tuple}")
+print(f"Length: {len(my_tuple)}")
+print(f"First element: {my_tuple[0]}")
+
+# Dictionary: Collection of key-value pairs
+print("\n=== Dictionary Operations ===")
+my_dict = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+print(f"Dictionary: {my_dict}")
+
+# Add new key-value pair
+my_dict["job"] = "Developer"
+print(f"After adding new key: {my_dict}")
+
+# Access value by key
+print(f"Name: {my_dict['name']}")

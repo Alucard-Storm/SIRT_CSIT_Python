@@ -11,25 +11,13 @@ It covers:
 
 import math
 
-def calculate_square_root(number):
-    """Calculates the square root of a non-negative number."""
-    # math.sqrt is a built-in function from the math module
-    return math.sqrt(number)
+# Get input from user
+number = float(input("Enter a number to find its square root: "))
 
-def main():
-    # Input can be a floating point number
-    number = float(input("Enter a number to find its square root: "))
-    
-    # Square root of a negative number is undefined in the real number system
-    if number < 0:
-        print("Error: Cannot calculate the square root of a negative number.")
-        return
-        
-    # Call the calculation function
-    math_sqrt = calculate_square_root(number)
-    
-    # Display the result
-    print(f"The square root of {number} is: {math_sqrt}")
-
-# Main guard to prevent execution on import
-main()
+# Check for negative numbers
+if number < 0:
+    print("Error: Cannot find square root of a negative number.")
+else:
+    # Calculate and display square root
+    result = math.sqrt(number)
+    print(f"The square root of {number} is: {result}")

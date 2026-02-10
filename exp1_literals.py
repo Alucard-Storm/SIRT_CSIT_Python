@@ -10,34 +10,26 @@ It covers:
 """
 
 
-# Defining Constants (conventionally written in UPPERCASE)
+# Constants (variables in UPPERCASE that don't change)
 PI = 3.14159
-MAX_VALUE = 100
 
-# Demonstrating different types of literals and their corresponding data types
-integer_num = 42         # Integer literal
-float_num = 3.14          # Floating point literal
-string_text = "Hello, Python!"  # String literal
-boolean_val = True        # Boolean literal
-complex_num = 3 + 4j      # Complex number literal (a + bj)
-list_example = [1, 2, 3, 4, 5]  # List literal (mutable collection)
+# Different types of literals
+integer_num = 42
+float_num = 3.14
+string_text = "Hello, Python!"
+boolean_val = True
+list_example = [1, 2, 3, 4, 5]
 
-def main():
-    # Input and Output demonstration
-    print("=== Data Types and I/O Demo ===")
-    
-    # Taking input from the user (input() always returns a string)
-    name = input("Enter your name: ")
-    # Converting the input string to an integer
-    age = int(input("Enter your age: "))
-    
-    # Displaying output using f-strings for formatting
-    print(f"\nName (string): {name}")
-    print(f"Age (integer): {age}")
-    print(f"PI (float constant): {PI}")
-    print(f"Complex number: {complex_num}")
-    print(f"Boolean value: {boolean_val}")
-    print(f"List: {list_example}")
+# Main program
+print("=== Data Types and I/O Demo ===")
 
-# Entry point of the script
-main()
+# Take input from user
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+# Display output
+print(f"\nName (string): {name}")
+print(f"Age (integer): {age}")
+print(f"PI (float): {PI}")
+print(f"Boolean value: {boolean_val}")
+print(f"List: {list_example}")

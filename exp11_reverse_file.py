@@ -10,31 +10,25 @@ It covers:
 """
 
 
-def reverse_file_lines(filename):
-    """Reads lines from a file and prints them in original and reversed order."""
-    # 'with' statement ensures the file is automatically closed
+# Get filename from user
+filename = input("Enter the filename (e.g., sample.txt): ")
+
+try:
+    # Open and read file
     with open(filename, 'r') as file:
-        # readlines() returns a list of all lines in the file
         lines = file.readlines()
     
-    if not lines:
-        print(f"The file '{filename}' is empty.")
-        return
-
-    print(f"--- Original content of '{filename}' ---")
+    # Display original content
+    print(f"\n--- Original content of '{filename}' ---")
     for line in lines:
-        # strip() removes leading/trailing whitespace including newlines
         print(line.strip())
     
+    # Display reversed content
     print(f"\n--- Content in Reversed Order ---")
-    # reversed() returns an iterator that traverses the list backwards
     for line in reversed(lines):
         print(line.strip())
-
-def main():
-    # Prompt user for the file to process
-    filename = input("Enter the filename (e.g., sample.txt): ")
-    reverse_file_lines(filename)
-
-# Entry point
-main()
+        
+except FileNotFoundError:
+    print(f"Error: File '{filename}' not found.")
+except Exception as e:
+    print(f"Error: {e}")

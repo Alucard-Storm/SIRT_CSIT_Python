@@ -9,21 +9,12 @@ It covers:
 """
 
 
-def calculate_power(base, exponent):
-    """Returns the result of base raised to the power of exponent."""
-    # The ** operator is used for exponentiation in Python
-    return base ** exponent
+# Get input from user
+base = float(input("Enter the base number: "))
+exponent = int(input("Enter the exponent: "))
 
-def main():
-    # Prompt user for base and exponent
-    base = float(input("Enter the base number: "))
-    exponent = int(input("Enter the exponent (integer): "))
-    
-    # Calculate the result
-    result = calculate_power(base, exponent)
-    
-    # Output the formatted result
-    print(f"{base} raised to the power of {exponent} is: {result}")
+# Calculate power using ** operator
+result = base ** exponent
 
-# Standard Python idiom for running the main function
-main()
+# Display the result
+print(f"{base} raised to the power of {exponent} is: {result}")

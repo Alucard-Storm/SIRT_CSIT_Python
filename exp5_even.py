@@ -10,20 +10,11 @@ It covers:
 """
 
 
-def is_even(number):
-    """Returns True if the number is even, False otherwise."""
-    # Modulo operator % returns the remainder of division
-    return number % 2 == 0
+# Get input from user
+number = int(input("Enter a number to check: "))
 
-def main():
-    # Prompt user for input
-    number = int(input("Enter a number to check if it's even: "))
-    
-    # Decision logic using the is_even function
-    if is_even(number):
-        print(f"{number} is an even number.")
-    else:
-        print(f"{number} is an odd number.")
-
-# Execution starts here
-main()
+# Check if number is even or odd using modulo operator
+if number % 2 == 0:
+    print(f"{number} is an even number.")
+else:
+    print(f"{number} is an odd number.")
