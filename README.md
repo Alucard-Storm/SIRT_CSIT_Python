@@ -48,17 +48,17 @@
 
 *Goal: Move from scripts to structured programs.*
 
-1. **[Functions and Modular Programming](Experiment_No_11.md)**
-    Define and call functions with arguments and return values.
+1. **[Case Study: Banking Transaction System](Experiment_No_11.md)**
+    Define and call functions with arguments and return values (Deposit, Withdraw, Balance check).
 
-2. **[Inheritance in Python](Experiment_No_12.md)**
-    Demonstrate single or multilevel inheritance using classes and objects.
+2. **[Case Study: Employee Management System](Experiment_No_12.md)**
+    Demonstrate single or multilevel inheritance using classes and objects (Employee -> Manager).
 
-3. **[Functional Polymorphism](Experiment_No_13.md)**
-    Achieve polymorphism using default arguments or variable-length parameters.
+3. **[Case Study: Restaurant Order System](Experiment_No_13.md)**
+    Achieve polymorphism using default arguments to handle flexible customer orders.
 
 4. **[Case Study: Student Record Management System](Experiment_No_14.md)**
-    Menu-driven program using functions, lists/dictionaries, and basic validation.
+    Menu-driven program using list of dictionaries and functions (Add, View, Search, Delete).
 
-5. **[Case Study: Mathematical Utility Application](Experiment_No_15.md)**
-    A unified program combining prime, Fibonacci, power, and statistical operations.
+5. **[Case Study: Mathematical Utility Toolkit](Experiment_No_15.md)**
+    A unified program combining prime, Fibonacci, factorial, and power operations.
