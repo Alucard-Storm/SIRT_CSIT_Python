@@ -1,15 +1,64 @@
-**# List of Experiments**
+# Programming in Python (CSIT - 605)
 
-| NO. | Experiment Name |
-| -- | ------------------------- |
-| 1. | [Write a program for literals, constants, data type, i/o.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp1_literals.py) |
-| 2. | [Write a program to create a program for list, tuples and dictionary.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp2_collections.py) |
-| 3. | [Write a program to find mean, median, mode for the given set of numbers in a list.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp3_statistics.py) |
-| 4. | [Write a program to find the first n prime numbers.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp4_prime.py) |
-| 5. | [Write a Program for checking whether the given number is an even number or not.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp5_even.py) |
-| 6. | [Write a program to find the square root of a number.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp6_sqrt.py) |
-| 7. | [Write a program to find the exponentiation (Power of a number).](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp7_power.py) |
-| 8. | [Write a program to print Fibonacci Series.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp8_fibonacci.py) |
-| 9. | [Write a program to show Inheritance.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp9_inheritance.py) |
-| 10. | [Write a program to achieve functional Polymorphism.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp10_polymorphism.py) |
-| 11. | [Write a program to print each line of a file in reverse order.](https://github.com/Alucard-Storm/SIRT_CSIT_Python/blob/main/exp11_reverse_file.py) |
+## List Of Experiments
+
+### **Basic Level Experiments (Getting Python to Talk Back)**
+
+*Goal: Environment setup, syntax comfort, and basic logic.*
+
+1. **Python Installation, IDE Setup & Hello World Program**
+   Install Python, configure IDE, understand interpreter, and write the first `Hello, World!` program.
+
+2. **Literals, Constants, Data Types & I/O Program**
+   Demonstrate numeric, string, and boolean data types with user input and formatted output.
+
+3. **Even or Odd Number Checker**
+   Use conditional statements (`if–else`) to check whether a number is even or odd.
+
+4. **Square Root of a Number**
+   Compute square root using built-in math functions and user input.
+
+5. **Exponentiation (Power of a Number)**
+   Calculate the power of a number using operators and built-in functions.
+
+---
+
+### **Intermediate Level Experiments (Logic Meets Structure)**
+
+*Goal: Work with collections, loops, and problem-solving patterns.*
+
+1. **List, Tuple, and Dictionary Operations**
+   Create and manipulate Python’s core data structures with insertion, deletion, and traversal.
+
+2. **Fibonacci Series Using Loops**
+   Generate Fibonacci series using iterative logic and control flow.
+
+3. **First n Prime Numbers**
+   Write a program to find the first `n` prime numbers using nested loops.
+
+4. **Mean, Median, and Mode of a List**
+   Perform statistical computations using lists and conditional logic.
+
+5. **File Handling: Reverse Each Line of a File**
+    Read a text file and print each line in reverse order.
+
+---
+
+### **Advanced Level / Case Study Experiments (Thinking in Objects & Systems)**
+
+*Goal: Move from scripts to structured programs.*
+
+1. **Functions and Modular Programming**
+    Define and call functions with arguments and return values.
+
+2. **Inheritance in Python**
+    Demonstrate single or multilevel inheritance using classes and objects.
+
+3. **Functional Polymorphism**
+    Achieve polymorphism using default arguments or variable-length parameters.
+
+4. **Case Study: Student Record Management System**
+    Menu-driven program using functions, lists/dictionaries, and basic validation.
+
+5. **Case Study: Mathematical Utility Application**
+    A unified program combining prime, Fibonacci, power, and statistical operations.
