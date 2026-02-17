@@ -59,7 +59,7 @@ print(f"Total Salary: ${mgr1.calculate_salary()}")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 --- Payroll System ---

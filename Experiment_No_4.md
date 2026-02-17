@@ -27,7 +27,7 @@ print(f"Square root of {num} is {sqrt_val}")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Enter a number: 16

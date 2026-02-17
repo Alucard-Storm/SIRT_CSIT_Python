@@ -71,7 +71,7 @@ while True:
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 --- Math Toolkit ---

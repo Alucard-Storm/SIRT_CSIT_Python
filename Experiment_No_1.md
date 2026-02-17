@@ -24,7 +24,7 @@ print("Hello, World!")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Hello, World!

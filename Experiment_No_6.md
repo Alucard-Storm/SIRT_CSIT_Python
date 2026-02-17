@@ -34,7 +34,7 @@ print("Dictionary:", my_dict)
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 List: [1, 2, 3, 4]

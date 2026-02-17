@@ -81,7 +81,7 @@ while True:
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 1. Add Student

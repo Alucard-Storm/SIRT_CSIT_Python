@@ -49,7 +49,7 @@ print(take_order("Pasta Alfredo", 3, "No Parsley"))
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 --- Kitchen Ticket System ---

@@ -1,12 +1,15 @@
 # Experiment No 8
 
 ## Aim
+
 First n Prime Numbers
 
 ## Objective
+
 Write a program to find the first `n` prime numbers using nested loops.
 
 ## Process Flow
+
 1. Read `n` from the user.
 2. Initialize a counter and a number variable.
 3. Use a while loop to find `n` primes.
@@ -14,6 +17,7 @@ Write a program to find the first `n` prime numbers using nested loops.
 5. If prime, print it and increment the counter.
 
 ## Code
+
 ```python
 n = int(input("Enter value of n: "))
 count = 0
@@ -31,9 +35,10 @@ while count < n:
     num += 1
 print()
 ```
+
 ---
 
-## Outcome
+## Output
 
 ```bash
 Enter value of n: 5

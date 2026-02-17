@@ -29,7 +29,7 @@ print()
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Enter number of terms: 5

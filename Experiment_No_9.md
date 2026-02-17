@@ -1,12 +1,15 @@
 # Experiment No 9
 
 ## Aim
+
 Mean, Median, and Mode of a List
 
 ## Objective
+
 Perform statistical computations using lists and conditional logic.
 
 ## Process Flow
+
 1. Import the `statistics` module.
 2. Define a list of numbers.
 3. Calculate mean using `statistics.mean()`.
@@ -15,6 +18,7 @@ Perform statistical computations using lists and conditional logic.
 6. Print results.
 
 ## Code
+
 ```python
 import statistics
 
@@ -24,9 +28,10 @@ print("Mean:", statistics.mean(data))
 print("Median:", statistics.median(data))
 print("Mode:", statistics.mode(data))
 ```
+
 ---
 
-## Outcome
+## Output
 
 ```bash
 Data: [1, 2, 2, 3, 4, 7, 9]

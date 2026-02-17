@@ -25,7 +25,7 @@ print(f"{base} raised to {exp} is {result}")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Enter base: 2

@@ -1,12 +1,15 @@
 # Experiment No 10
 
 ## Aim
+
 File Handling: Reverse Each Line of a File
 
 ## Objective
+
 Read a text file and print each line in reverse order.
 
 ## Process Flow
+
 1. Create/Identify a text file named `@sample.txt`.
 2. Open the file in read mode.
 3. Iterate through each line.
@@ -15,6 +18,7 @@ Read a text file and print each line in reverse order.
 6. Print the reversed line.
 
 ## Code
+
 ```python
 # Using @sample.txt
 filename = "sample.txt"
@@ -26,14 +30,15 @@ try:
 except FileNotFoundError:
     print(f"{filename} not found.")
 ```
+
 ---
 
-## Outcome
+## Output
 
 ```bash
-reif eht fo enil tsriF
-reif eht fo enil dnoceS
-reif eht fo enil drihT
-reif eht fo enil htruoF
- elif eht fo enil htfiF
+elif eht fo enil tsriF
+elif eht fo enil dnoceS
+elif eht fo enil drihT
+elif eht fo enil htruoF
+elif eht fo enil htfiF
 ```

@@ -71,7 +71,7 @@ print(f"Final Balance: ${check_balance()}")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 --- Banking System Simulation ---

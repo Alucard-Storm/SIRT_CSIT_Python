@@ -27,7 +27,7 @@ else:
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Enter a number: 4

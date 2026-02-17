@@ -32,7 +32,7 @@ print(f"You entered: {user_input}")
 
 ---
 
-## Outcome
+## Output
 
 ```bash
 Integer: 10, Type: <class 'int'>
